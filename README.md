@@ -10,55 +10,50 @@
 - [License](#license)
 
 ## Description
+This application will generate an HTML page of your team. The page that is generated includes the following:
 
-This application will generate a web page of a company or project team. The web page that is generated displays an the employee summary portal, which includes the following:
+- One Manager
 
-- Manager
+- Engineers
 
-- Engineer
-
-- Intern
+- Interns
 
 With important contact information as their name, employee id and their email address.
 
-There are more information returned depending on their title and the information entered when running the application:
+There is more info returned depending on the role the user selects:
 
-- Manager includes an phone number
+- Manager includes a office number (numbers only)
 
-- Engineer includes a github name
+- Engineer includes a github username
 
-- Intern includes a school name
-
-The application builds a team with one manager and as many engineers and interns as you have.
+- Intern includes a school name 
 
 ## Installation
+To run:
 
-To use this application:
+- All the packages should be included, but if needed, run `npm install`, `npm install inquirer`, `npm install fs` & `npm install colors`
 
-- Clone the GitHub repository at: <https://github.com/susieotto/10-team-profile-generator>
+- Open a terminal in the root folder and run `node app.js`
 
-- All the packages should be included, but if you should get any errors, run `npm install`, `npm install inquirer`, `npm install fs` & `npm install colors`
+- You will be asked a series of questions based on your selections. 
 
-- To run the application in command line, run `node app.js`
-
-- You will be prompted to enter one manager and as many engineers and interns as you need to
+- Use the arrow keys to select which role you would like to enter.
 
 - Choose 'list complete' when you are finished adding team members
 
-- The resulting html file appears in an output directory as "output.html"
-Example of Finsihed Team Profile:
+- The resulting html file saves into the output directory as "output.html"
+
+**Example of Finsihed Team Profile:**
 ![screenshot1](./demo/team-screenshot.png)
 
-- There is a style.css file included with the example styling above, but you may use your own design to fit your needs.
+- The style.css file is included with the example styling above, but you may use your own design to fit your needs.
 
 ## Tests
-
-To run the tests type in the console `npm test` (requires jest)
+To run the tests type `npm test` (uses jest)
 
 ![screenshot2](./demo/test-screenshot.png)
 
 ## Questions
-
 If you have questions, feel free to contact me at hello@susieotto.com
 
 ## Demo
@@ -76,6 +71,5 @@ If you have questions, feel free to contact me at hello@susieotto.com
 )
 
 ## License
-
 None
 
