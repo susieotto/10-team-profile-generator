@@ -1,0 +1,33 @@
+{
+  "name": "10-team-profile-generator",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susieotto/10-team-profile-generator.git"
+  },
+  "author": "Susie Otto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susieotto/10-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/susieotto/10-team-profile-generator#readme",
+  "dependencies": {
+    "color": "^3.1.2",
+    "colors": "^1.4.0",
+    "fa": "^1.0.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
